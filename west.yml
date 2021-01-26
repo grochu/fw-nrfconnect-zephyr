@@ -21,6 +21,8 @@ manifest:
   remotes:
     - name: upstream
       url-base: https://github.com/zephyrproject-rtos
+    - name: grochu
+      url-base: https://github.com/grochu
 
   #
   # Please add items below based on alphabetical order
@@ -56,8 +58,9 @@ manifest:
       revision: f1fa8241f8786198ba41155413243de36ed878a5
       path: modules/hal/infineon
     - name: hal_nordic
-      revision: 8e132fee9794fcc8b809f3d7479b17031c156317
+      revision: c1899db19fab4cf4895b1c3b250d01802bfaed14
       path: modules/hal/nordic
+      remote: grochu
     - name: hal_openisa
       revision: 40d049f69c50b58ea20473bee14cf93f518bf262
       path: modules/hal/openisa
